@@ -1,26 +1,28 @@
-# Election_Analysis
-### Election Analysis using Python
+# Election_Analysis using Python
+
 
 
 
 ## Overview of Election Audit: 
- * Election Audit of a Colorado Congressional Election.
+ * Election Audit of a local Colorado Congressional Election.  We were provided with a CSV file of Election data.  We used Python to automate reading the CSV file and performing an analysis on the election data.
 
 
 ## Election-Audit Results: 
 
-<img width="371" alt="Screen Shot 2022-01-01 at 9 34 38 AM" src="https://user-images.githubusercontent.com/37478490/147854160-849138ab-de77-4495-835e-4cae0ea578d3.png">
+<img width="367" alt="Screen Shot 2022-01-01 at 8 10 53 PM" src="https://user-images.githubusercontent.com/37478490/147864270-3589bcdf-0017-44b1-acdd-c864b67d3918.png">
 
- 
-  * Total votes cast in this Colorado congressional election = 369,711
-  * Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-  * Which county had the largest number of votes?
-  * Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-  * Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-  
   
   
 ## Election-Audit Summary: 
-### In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
- * There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script.
+>The Local Colorado congressional election included three candidates and election results from three counties. 
+* Winning Candidate 1:  Diana DeGette (272,892 votes, 73.8% of the vote)
+* Candidate 2:  Charles Casper Stockham (85,213 votes, 23% of the vote)
+* Candidate 3:  Raymon Anthony Doane (11,606 votes, 3.1% of the vote)
+* COUNTY 1:  Denver County (306,055 votes cast, 82.8% of votes cast)
+* COUNTY 2:  Jefferson County (38,855 votes cast, 10.5% of votes cast)
+* COUNTY 3:  Arapahoe County (24,801 votes cast, 6.7% of votes cast)
+
+Using Python, we were able to read the "election_resuls" CSV file, count votes, calculate the winner, calculate voter participation per county and write results to a text file called "election_analysis".  The analysis could potentially be used to determine voter engagment, candidate viability, voter accessability and many other aspects to voting and local elections.  The Python code could be modified to perform further analysis if provided more data.   
+>
+
