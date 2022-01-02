@@ -4,7 +4,7 @@
 
 
 ## Overview of Election Audit: 
- * Election Audit of a local Colorado Congressional Election.  We were provided with a CSV file of Election data.  We used Python to automate reading the CSV file and performing an analysis on the election data.
+ * Election Audit of a local Colorado Congressional Election.  We were provided with a CSV file of Election data.  We used Python to automate reading the CSV file, performing an analysis on the election data, and writing results to a text file.
 
 
 ## Election-Audit Results: 
